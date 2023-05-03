@@ -1,0 +1,29 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int x=5, y=10, z=25;
+      string Firstname = "Abdul";
+      string Lastname = "Jilani";
+      string Fullname = Firstname+Lastname;
+      Console.WriteLine("Hello " +Fullname);
+      Console.WriteLine(x+y+z);
+      int x1,y1,z1;
+      x1=10; 
+      y1=20; 
+      z1=x1+y1;
+      bool IsCsharpFun = true;
+      bool IsFishTasty = false;
+      Console.WriteLine("IsCsharpFun : " +IsCsharpFun);
+      Console.WriteLine("IsFishTasty : " +IsFishTasty);
+      
+      Console.WriteLine("The values are :" +x1,y1,z1);
+      
+      Console.ReadLine();
+    }
+  }
+}
